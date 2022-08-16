@@ -8,6 +8,10 @@ public class Rectangle {
         this.width = width;
     }
 
+    public float getPerimeter(){
+        return 2 * (this.length + this.width);
+    }
+
     public float getLength(){
         return this.length;
     }
