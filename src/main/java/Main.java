@@ -1,6 +1,7 @@
 public class Main {
 
     public static void main(String[] args) {
+        //Account
         Account myAccount = new Account("1", "Johnson", 300);
 
         System.out.println(myAccount);
@@ -8,6 +9,7 @@ public class Main {
         int myBalance = myAccount.getBalance();
         System.out.println(myBalance);
 
+        // Circle
         Circle myCircle = new Circle(2);
 
         System.out.println("radius: " + myCircle.getRadius());
@@ -16,6 +18,7 @@ public class Main {
         myCircle.setRadius(4);
         System.out.println("new circumference: " + myCircle.getCircumference());
 
+        //Rectangle
         Rectangle myRectangle = new Rectangle(13, 24);
 
         System.out.println("length: " + myRectangle.getLength());
@@ -28,6 +31,7 @@ public class Main {
         System.out.println("area: " + myRectangle.getArea());
         System.out.println("diagonal: " + myRectangle.getDiagonal());
 
+        //Customer
         Customer myCustomer = new Customer("John", "Doe", 300.24);
 
         System.out.println("id: " + myCustomer.getId());
