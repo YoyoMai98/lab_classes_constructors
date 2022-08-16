@@ -37,5 +37,10 @@ public class Main {
 
         myCustomer.setHeldMoney(2000);
         System.out.println("new held money: " + myCustomer.getHeldMoney());
+
+        System.out.println("full name: " + myCustomer.getFullName());
+
+        myCustomer.subtractHeldMoney(180);
+        System.out.println("subtract money held: " + myCustomer.getHeldMoney());
     }
 }
