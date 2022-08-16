@@ -9,5 +9,8 @@ public class Main {
         System.out.println(myBalance);
 
         Circle myCircle = new Circle(2);
+
+        System.out.println("radius: " + myCircle.getRadius());
+        System.out.println("circumference: " + myCircle.getCircumference());
     }
 }
