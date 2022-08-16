@@ -47,6 +47,8 @@ public class Main {
         myCustomer.subtractHeldMoney(180);
         System.out.println("subtract money held: " + myCustomer.getHeldMoney());
 
+        myCustomer.addHeldMoney(240);
+
         System.out.println(myCustomer);
     }
 }
