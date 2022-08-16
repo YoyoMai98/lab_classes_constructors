@@ -16,6 +16,10 @@ public class Rectangle {
         return this.length * this.width;
     }
 
+    public double getDiagonal(){
+        return Math.sqrt(Math.pow(this.length,2) + Math.pow(this.width,2));
+    }
+
     public float getLength(){
         return this.length;
     }
