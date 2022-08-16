@@ -5,8 +5,8 @@ public class Customer {
     private String lastName;
     private double heldMoney;
 
-    public Customer(int id, String firstName, String lastName, double heldMoney){
-        this.id = id;
+    public Customer(String firstName, String lastName, double heldMoney){
+        this.id = (int) (Math.random() * 1000) + 1;
         this.firstName = firstName;
         this.lastName = lastName;
         this.heldMoney = heldMoney;

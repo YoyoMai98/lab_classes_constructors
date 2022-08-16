@@ -28,7 +28,7 @@ public class Main {
         System.out.println("area: " + myRectangle.getArea());
         System.out.println("diagonal: " + myRectangle.getDiagonal());
 
-        Customer myCustomer = new Customer(1, "John", "Doe", 300.24);
+        Customer myCustomer = new Customer("John", "Doe", 300.24);
 
         System.out.println("id: " + myCustomer.getId());
         System.out.println("first name: " + myCustomer.getFirstName());
