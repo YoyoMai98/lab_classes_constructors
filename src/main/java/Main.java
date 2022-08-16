@@ -12,5 +12,8 @@ public class Main {
 
         System.out.println("radius: " + myCircle.getRadius());
         System.out.println("circumference: " + myCircle.getCircumference());
+
+        myCircle.setRadius(4);
+        System.out.println("new circumference: " + myCircle.getCircumference());
     }
 }
