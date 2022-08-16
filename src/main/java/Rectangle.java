@@ -12,6 +12,10 @@ public class Rectangle {
         return 2 * (this.length + this.width);
     }
 
+    public float getArea(){
+        return this.length * this.width;
+    }
+
     public float getLength(){
         return this.length;
     }
