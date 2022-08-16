@@ -7,5 +7,7 @@ public class Main {
 
         int myBalance = myAccount.getBalance();
         System.out.println(myBalance);
+
+        Circle myCircle = new Circle(2);
     }
 }
