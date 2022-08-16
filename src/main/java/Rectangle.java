@@ -15,4 +15,12 @@ public class Rectangle {
     public float getWidth(){
         return this.width;
     }
+
+    public void setLength(float newLength){
+        this.length = newLength;
+    }
+
+    public void setWidth(float newWidth){
+        this.width = newWidth;
+    }
 }
