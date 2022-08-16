@@ -23,5 +23,9 @@ public class Main {
 
         myRectangle.setLength(10);
         System.out.println("new length: " + myRectangle.getLength());
+
+        System.out.println("perimeter: " + myRectangle.getPerimeter());
+        System.out.println("area: " + myRectangle.getArea());
+        System.out.println("diagonal: " + myRectangle.getDiagonal());
     }
 }
