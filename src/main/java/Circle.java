@@ -1,4 +1,8 @@
 public class Circle {
 
-    public Circle(){}
+    private double radius;
+
+    public Circle(double radius){
+        this.radius = radius;
+    }
 }
