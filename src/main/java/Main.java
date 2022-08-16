@@ -27,5 +27,8 @@ public class Main {
         System.out.println("perimeter: " + myRectangle.getPerimeter());
         System.out.println("area: " + myRectangle.getArea());
         System.out.println("diagonal: " + myRectangle.getDiagonal());
+
+        Customer myCustomer = new Customer(1, "John", "Doe", 300.24);
+        
     }
 }
