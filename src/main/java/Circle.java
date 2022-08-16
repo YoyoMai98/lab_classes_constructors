@@ -6,6 +6,10 @@ public class Circle {
         this.radius = radius;
     }
 
+    public double getCircumference(){
+        return 2 * Math.PI * this.radius;
+    }
+
     public double getRadius(){
         return this.radius;
     }
