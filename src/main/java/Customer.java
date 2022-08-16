@@ -16,6 +16,10 @@ public class Customer {
         return firstName + " " + lastName;
     }
 
+    public void subtractHeldMoney(double money){
+        setHeldMoney(this.heldMoney - money);
+    }
+
     public int getId(){
         return this.id;
     }
