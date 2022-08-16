@@ -51,7 +51,7 @@ public class Main {
 
         System.out.println(myCustomer);
 
-        //Account extenstion
+        //Account extension
         Account_extension account2 = new Account_extension("1", myCustomer, 2000);
         System.out.println(account2);
     }
