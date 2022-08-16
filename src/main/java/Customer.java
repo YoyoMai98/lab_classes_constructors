@@ -11,4 +11,36 @@ public class Customer {
         this.lastName = lastName;
         this.heldMoney = heldMoney;
     }
+
+    public int getId(){
+        return this.id;
+    }
+
+    public String getFirstName(){
+        return this.firstName;
+    }
+
+    public String getLastName(){
+        return this.lastName;
+    }
+
+    public double getHeldMoney(){
+        return this.heldMoney;
+    }
+
+    public void setId(int newId){
+        this.id = newId;
+    }
+
+    public void setFirstName(String newFirstName){
+        this.firstName = newFirstName;
+    }
+
+    public void setLastName(String newLastName){
+        this.lastName = newLastName;
+    }
+
+    public void setHeldMoney(double newHeldMoney){
+        this.heldMoney = newHeldMoney;
+    }
 }
