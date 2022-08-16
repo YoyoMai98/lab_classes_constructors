@@ -22,6 +22,18 @@ public class Account {
         return this.balance;
     }
 
+    public void setId(String newId){
+        this.id = newId;
+    }
+
+    public void setName(String newName){
+        this.name = newName;
+    }
+
+    public void setBalance(int newBalance){
+        this.balance = newBalance;
+    }
+
     @Override
     public String toString(){
         return "Account{" + "id='" + id + ", name='" + name + ", balance=" + balance + '}';
