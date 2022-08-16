@@ -1,18 +1,18 @@
 public class Rectangle {
 
-    private double length;
-    private double width;
+    private float length;
+    private float width;
 
-    public Rectangle(double length, double width){
+    public Rectangle(float length, float width){
         this.length = length;
         this.width = width;
     }
 
-    public double getLength(){
+    public float getLength(){
         return this.length;
     }
 
-    public double getWidth(){
+    public float getWidth(){
         return this.width;
     }
 }
