@@ -20,6 +20,10 @@ public class Customer {
         setHeldMoney(this.heldMoney - money);
     }
 
+    public void addHeldMoney(double addMoney){
+        setHeldMoney(this.heldMoney + addMoney);
+    }
+
     public int getId(){
         return this.id;
     }
