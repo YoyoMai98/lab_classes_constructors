@@ -51,4 +51,10 @@ public class Customer {
     public void setHeldMoney(double newHeldMoney){
         this.heldMoney = newHeldMoney;
     }
+
+    @Override
+    public String toString(){
+        return "Customer{" + "id='" + id + '\'' + ", first name='" + firstName + '\'' +
+                ", last name='" + lastName + '\'' + ", held Money=" + heldMoney + '}';
+    }
 }
