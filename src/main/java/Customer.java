@@ -12,6 +12,10 @@ public class Customer {
         this.heldMoney = heldMoney;
     }
 
+    public String getFullName(){
+        return firstName + " " + lastName;
+    }
+
     public int getId(){
         return this.id;
     }
