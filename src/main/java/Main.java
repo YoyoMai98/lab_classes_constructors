@@ -29,6 +29,13 @@ public class Main {
         System.out.println("diagonal: " + myRectangle.getDiagonal());
 
         Customer myCustomer = new Customer(1, "John", "Doe", 300.24);
-        
+
+        System.out.println("id: " + myCustomer.getId());
+        System.out.println("first name: " + myCustomer.getFirstName());
+        System.out.println("last name: " + myCustomer.getLastName());
+        System.out.println("held money: " + myCustomer.getHeldMoney());
+
+        myCustomer.setHeldMoney(2000);
+        System.out.println("new held money: " + myCustomer.getHeldMoney());
     }
 }
