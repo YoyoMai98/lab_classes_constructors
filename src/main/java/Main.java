@@ -15,5 +15,13 @@ public class Main {
 
         myCircle.setRadius(4);
         System.out.println("new circumference: " + myCircle.getCircumference());
+
+        Rectangle myRectangle = new Rectangle(13, 24);
+
+        System.out.println("length: " + myRectangle.getLength());
+        System.out.println("width: " + myRectangle.getWidth());
+
+        myRectangle.setLength(10);
+        System.out.println("new length: " + myRectangle.getLength());
     }
 }
